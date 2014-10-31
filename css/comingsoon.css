@@ -1,0 +1,37 @@
+html, body {
+	height: 100%;
+}
+
+body { 
+	background: #262b30 url(../images/bgcoimngsoon.jpg) center;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype" , "dejavu sans", "helvetica neue", arial, sans-serif;
+	font-size:18px;
+	color:#ffffff;
+}
+.logo {
+	display: block;
+	background: url(../images/logo.png);
+	width: 143px;
+	height: 23px;
+	text-indent: -9999px;
+	margin:auto;
+	margin-top:60px;
+}
+.coming-info h1 {
+	font-size:48px;
+	font-weight:bold;
+	text-align:center;
+	margin-top:100px;
+}
+.coming-info h2 {
+	font-size:30px;
+	font-weight:normal;
+	color:#aeb0b1;
+	text-align:center;
+	margin-top:50px;
+}
+.coming-info p{
+	text-align:center;
+	color:#aeb0b1;
+	line-height:30px;
+}
