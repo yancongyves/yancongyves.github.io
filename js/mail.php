@@ -5,7 +5,7 @@
 	$simpleFormMailRecipient = "yvesyc@hotmail.com";
 	$simpleFormMailFrom = "from@example.com";
 	$simpleFormMailSubject = "联系我们";
-	$simpleFormSuccessMessage = "谢谢，您的邮件已经成功发送出去。";
+	$simpleFormSuccessMessage = "对不起，服务未开通，如需联系请发邮件，谢谢！";
 	
 	// Basic header information
 	$header = "From: <$simpleFormMailFrom>\n";
