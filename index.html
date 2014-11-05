@@ -1,33 +1,425 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- begin HEAD -->
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Coming Soon | YVESYC Web Site Personnal</title>
 	
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<meta name="viewport" content="width=device-width">
+	<title>YVESYC.ME</title>
+    <meta name="description" content="YVESYC个人网站" />  
+    <meta name="keywords" content="Design，平面设计，摄影" />	
 
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="css/skeleton.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="css/supersized.css" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="css/prettyphoto.css" />
 
-	<link rel="stylesheet" id="main-css" href="css/comingsoon.css" type="text/css" media="all">
-	<link rel="stylesheet" id="main-css" href="css/jquery.countdown.css" type="text/css" media="all">
-	<script src="js/jquery-1.7.1.min.js"></script>
-    <script src="js/jquery.countdown.js"></script>
-    <script src="js/jquery.countdownscript.js"></script>
+	<!-- Favicon-->
+	<link rel="shortcut icon" href="images/favicon.ico">
 
+	<!-- Google Webfont -->
+	<link href='http://fonts.googleapis.com/css?family=Dancing+Script:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Vollkorn:400,400italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+
+	<!-- begin JavaScripts -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
+	<script type="text/javascript" src="js/jquery.mobilemenu.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/jquery.freetile.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.8.23.custom.min.js"></script>
+	<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+	<script type="text/javascript" src="js/jquery.prettyphoto.js"></script>
+	<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+	<script type="text/javascript" src="js/jquery.nav.js"></script>
+	<script type="text/javascript" src="js/validation.js"></script>
+	<script type="text/javascript" src="js/form.js"></script>
+	<script type="text/javascript" src="js/jquery.testimonials.js"></script>
+
+	<script type="text/javascript">
+    // <![CDATA[
+	jQuery(function($){
+    $.supersized({				
+    // Functionality
+    slide_interval          :   3000,		// Length between transitions
+    transition              :   1,          // 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+    transition_speed        :   700,        // Speed of transition
+    // Components							
+    slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
+    slides                  :   [           // Slideshow Images
+                            {image : 'images/slide/1.jpg'},
+                            {image : 'images/slide/2.jpg'},
+                            {image : 'images/slide/3.jpg'}
+    ]
+    });
+	});
+    // ]]>
+	</script>
+	
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37796488-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	<!-- end JavaScripts -->
+	
 </head>
+<!-- end HEAD -->
 
-<body>
-	<a href="index.html" class="logo"><h1>Mars.</h1></a>
+<body id="home">
+<!-- begin MAIN WRAP -->
+	<div class="cover">
+		<div id="wrapper">
+			<!-- begin HEADER -->
+				<div id="header-wrap">	
+					<div id="slideout-wrap">   
+						<div id="slideout-container">				
+							<div id="header" class="container">
+								<ul class="navigation">
+									<li class="current"> <a href="#home">主 页</a></li>
+									<li> <a href="#menu-about">关 于</a></li>
+									<li> <a href="#menu-portfolio">作品集</a></li>	
+									<li> <a href="#menu-contact">联 系</a></li>
+								</ul>
+							</div>
+						</div>  
+						<div id="slideout-button"><a href="#"></a></div>           	
+					</div>					
+				</div>	
+			<!-- end HEADER -->
+			<div class="content">
+				<div class="page-content-first">
+					<!-- begin LOGO -->
+					<div class="logo">
+						<img src="images/logo.png" alt="logo" />
+					</div>
+					<!-- end LOGO -->
+
+					<!-- begin SOCIAL ICONS -->	
+					<div id="social-icons-top">
+						<div class="social-header">
+							<ul>					
+								<li class="twitter-header"><a href="http://www.weibo.com/yancongyves" target="_blank" ></a></li>
+								<li class="facebook-header"><a href="https://www.facebook.com/cong.yves" target="_blank" ></a></li>
+								<li class="dribbble-header"><a href="http://www.douban.com/people/Shades-gray/" target="_blank" ></a></li>
+								<li class="linkedin-header"><a href="http://cn.linkedin.com/in/yvesyc/" target="_blank" ></a></li>
+								<li class="vimeo-header"><a href="mailto:yvesyc@hotmail.com" target="_blank" ></a></li>
+							</ul>			
+						</div>
+					</div>
+					<!-- end SOCIAL ICONS -->	
+					
+				</div>
+			</div>
+		
+		<!-- begin SCROLL DOWN -->
+		<div class="header-scrolldown">
+			<img src="images/scrolldown.png" alt="scrolldown" />
+		</div>
+		<!-- end SCROLL DOWN -->
+
+
+<!-- begin Space Between Contents -->
+		<div class="block-between-contents">
+			<div class="content container">
+				<div id="menu-about" class="anchor-menu">
+						<p class="page-title"><span>关 于</span></p>
+				</div>
+			</div>
+		</div>
+<!-- end Space Between Contents -->
+
+<!-- begin ABOUT -->
+		<div class="content-block">
+		<div class="container"></div>
+		<div class="content container">
+			<div class="line"></div>
+			<div id="about" class="page-content">
+				
+				<div class="about-wrap">
+					<div class="five columns content-title">
+						<h3 class="content-title-small">个人信息</h3>
+					</div>
+
+					<div class="eleven columns about">
+					<div class="team-user">
+									<img src="images/team1.png" alt="team1" />
+								</div>
+								<br/>
+								<h6>闫 丛</h6>
+								<p class="team-member-pos">设计师，摄影师</p>
+								<h3>一直致力于研究平面设计多媒体方面，具有敏感的视觉观察力。</h3>
+								</p>
+									<!-- begin SOCIAL-ICONS -->
+									<div class="social-icons">
+										<ul>					
+											<li class="facebook"><a href="https://www.facebook.com/cong.yves" target="_blank">Facebook</a> </li>
+											<li class="twitter"><a href="http://www.weibo.com/yancongyves" target="_blank">Twitter</a> </li>
+											<li class="linkedin"><a href="http://cn.linkedin.com/in/yvesyc/" target="_blank">Linkedin</a> </li>
+											<li class="email"><a href="mailto:yvesyc@hotmail.com" target="_blank">Email</a> </li>
+										</ul>			
+									</div>
+									<!-- end SOCIAL-ICONS -->
+									<br/>
+									<br/>
+									<br/>
+						<p>
+							图形多媒体创意设计师, 视觉传媒专业，毕业于法国比利牛斯美术学院 (ÉCOLE SUPÉRIEURE ART DES PYRÉNÉES — Pau Tarbes) 图形创意多媒体专业。
+						</p>
+						<br/>
+						<p>
+							2009年获得ACAA商业插画师证；
+						</p>
+						<p>
+							2010年在校期间主题徽章设计 "Dans la forêt" 被采用；
+						</p>
+						<p>
+                            2011年在校期间参与法国著名平面设计大师 Ronald Curchod 的workshop, 在此期间创作了“ Carnet de voyage：Un jour à Pau”
+						</p>
+						<p>
+							2013年参与法国波城城市项目“Écrire la ville”，其作品是此次项目中重要的组成部分，多次在城市中展出，并且接受法国西南报专访。
+						</p>						
+						<br/>
+					</div>
+					
+					<div class="clear space100px"></div> 
+
+				</div>
+			</div> 
+		</div>
+		</div>
+<!-- end ABOUT -->
+
+<!-- begin Space Between Contents -->
+		<div class="block-between-contents">
+			<div class="content container twelve columns">
+				<div id="menu-portfolio" class="anchor-menu">
+						<p class="page-title"><span>作品集</span></p>
+				</div>
+			</div>
+		</div>
+<!-- end Space Between Contents -->
+
+<!-- begin PORTFOLIO -->
+		<div class="content-block">
+		<div class="portfolio container"></div>
+		<div class="content container">
+			<div class="line"></div>
+			<div class="page-content">
+				<div class="five columns content-title">
+					<h3 class="content-title-small">越多越少</h3>
+					<p class="content-sub">
+						照片就是关于秘密的秘密；照片告诉你的越多，你知道的就越少。
+					</p>
+				</div>				
+				<div class="eleven columns about">
+					<section class="slider">
+						<div class="flexslider">
+							<ul class="slides">
+								<li>
+									<img src="images/slide-work/slide1.jpg" alt="slide1" />
+								</li>
+								<li>
+									<img src="images/slide-work/slide2.jpg" alt="slide2" />
+								</li>
+								<li>
+									<img src="images/slide-work/slide3.jpg" alt="slide3" />
+								</li>
+							</ul>
+						</div>
+					</section>
+					<p class="content-sub">
+						                    太多的人活在对过去的遗憾和对未来的忧虑中，
+						                    我只希望自己不要为了自己的目标，把沿路的风景都错过了,
+                                            就像我一直认为的，一生很短，作为这个词却太大，活好每一天，
+                                            其实也是一种作为。
+					</p>
+				</div>
+					
+				<div class="clear space100px"></div> 
 	
-    <div class="coming-info">
-    	<h1>We’re Coming Soon!</h1>
-        <h2>Stay tuned, we are launching very soon… </h2>
-       
+			<!-- Portfolio -->
+			<div id="portfolio">
+				<div class="five columns content-title">
+					<h3 class="content-title-small">分类</h3>
+					<ul class="filter">
+						<li><a class="active" href="#" data-filter="*">所有</a></li>
+						<li><a href="#" data-filter=".graphic">图形</a></li>
+						<li><a href="#" data-filter=".artwork">艺术</a></li>
+						<li><a href="#" data-filter=".painting">绘画</a></li>
+						<li><a href="#" data-filter=".photo">摄影</a></li>
+						<li><a href="#" data-filter=".video">视频</a></li>
+					</ul>
+				</div>
+				<div class="eleven columns about">
+					<ul class="items col4">
+						<li class="item painting">
+							<div class="overlay"><a href="images/works/1.jpg" class="fancybox-media" data-rel="prettyPhoto[pp_gal]" title=""><img src="images/works/thumbs/1.jpg" alt="波城的一天：城堡" /></a></div>
+							<div class="info">
+								<h4 class="item-port-name">波城的一天：城堡</h4>
+							</div>
+						</li>
+						<li class="item painting">
+							<div class="overlay"><a href="images/works/2.jpg" class="fancybox-media" data-rel="prettyPhoto[pp_gal]" title=""><img src="images/works/thumbs/2.jpg" alt="波城的一天：街道" /></a></div>
+							<div class="info">
+								<h4 class="item-port-name">波城的一天：街道</h4>
+							</div>
+						</li>
+						<li class="item graphic">
+							<div class="overlay"><a href="images/works/3.jpg" class="fancybox-media" data-rel="prettyPhoto[pp_gal]" title=""><img src="images/works/thumbs/3.jpg" alt="开放日" /></a></div>
+							<div class="info">
+								<h4 class="item-port-name">开放日</h4>
+							</div>
+						</li>
+						<li class="item graphic">
+							<div class="overlay"><a href="images/works/4.jpg" class="fancybox-media" data-rel="prettyPhoto[pp_gal]" title=""><img src="images/works/thumbs/4.jpg" alt="书写城市之亨利四世" /></a></div>
+							<div class="info">
+								<h4 class="item-port-name">书写城市之亨利四世</h4>
+							</div>
+						</li>
+						<li class="item graphic">
+							<div class="overlay"><a href="images/works/5.jpg" class="fancybox-media" data-rel="prettyPhoto[pp_gal]" title=""><img src="images/works/thumbs/5.jpg" alt="书写城市之贝尔多纳特" /></a></div>
+							<div class="info">
+								<h4 class="item-port-name">书写城市之贝尔多纳特</h4>
+							</div>
+						</li>
+						<li class="item photo">
+							<div class="overlay"><a href="images/works/6.jpg" data-rel="prettyPhoto[pp_gal]" title=""><img src="images/works/thumbs/6.jpg" alt="25号" /></a></div>
+							<div class="info">
+								<h4 class="item-port-name">25号</h4>
+							</div>
+						</li>
+						<li class="item photo">
+							<div class="overlay"><a href="images/works/7.jpg" data-rel="prettyPhoto[pp_gal]" title=""><img src="images/works/thumbs/7.jpg" alt="卡布勒通的灯塔" /></a></div>
+							<div class="info">
+								<h4 class="item-port-name">卡布勒通的灯塔</h4>
+							</div>
+						</li>
+						<li class="item photo">
+							<div class="overlay"><a href="images/works/8.jpg" data-rel="prettyPhoto[pp_gal]" title=""><img src="images/works/thumbs/8.jpg" alt="随波漂流" /></a></div>
+							<div class="info">
+								<h4 class="item-port-name">随波漂流</h4>
+							</div>
+						</li>
+						<li class="item photo artwork">
+							<div class="overlay"><a href="images/works/9.jpg" data-rel="prettyPhoto[pp_gal]" title=""><img src="images/works/thumbs/9.jpg" alt="梦回街道" /></a></div>
+							<div class="info">
+								<h4 class="item-port-name">梦回街道</h4>
+							</div>
+						</li>
+						<li class="item photo artwork">
+							<div class="overlay"><a href="images/works/10.jpg" data-rel="prettyPhoto[pp_gal]" title=""><img src="images/works/thumbs/10.jpg" alt="赌场在那里面" /></a></div>
+							<div class="info">
+								<h4 class="item-port-name">赌场在那里面</h4>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- // Portfolio -->				
 
-		<div id="countdown"></div>
-        <p id="note"></p>
+			</div>
+		</div>
+      	</div>
+<!-- end PORTFOLIO -->
 
+<!-- begin Space Between Contents -->
+		<div class="block-between-contents">
+			<div class="content container twelve columns">
+				<div id="menu-contact" class="anchor-menu">
+						<p class="page-title"><span>联 系</span></p>
+				</div>
+			</div>
+		</div>
+<!-- end Space Between Contents -->
+		
+<!-- begin CONTACT -->
+		<div class="content-block">
+		<div class="container"></div>
+		<div class="content container">
+			<div class="line"></div>
+			<div id="contact" class="page-content">
+				<div class="five columns content-title">
+					<h3 class="content-title-small">联系方式</h3>
+					<p class="content-sub">
+						
+					</p>
+					<!-- begin CONTACT INFO -->
+							<div class="contact-info">
+								<ul>
+									<li class="contact-info-subtitle">-<span>电 话</span></li>
+									<li class="contact-info-content">+86 13912996556</li>
+									<li class="contact-info-subtitle">-<span>电子邮件</span></li>
+									<li class="contact-info-content">yvesyc@hotmail.com</li>
+									<li class="contact-info-subtitle">-<span>地 址</span></li>
+									<li class="contact-info-content"></li>
+								</ul>
+							</div>
+							<br/>
+							<!-- begin GMAP -->
+							<iframe class="gmap" height="168" src="https://maps.google.com.br/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=Washington,+Estados+Unidos&amp;aq=1&amp;oq=Washin&amp;sll=-27.609691,-48.478875&amp;sspn=0.986912,2.113495&amp;ie=UTF8&amp;hq=&amp;hnear=Distrito+de+Col%C3%BAmbia,+District+of+Columbia,+Distrito+de+Col%C3%BAmbia,+Estados+Unidos&amp;t=m&amp;ll=38.895108,-77.03639&amp;spn=0.014362,0.036478&amp;z=14&amp;iwloc=A&amp;output=embed">
+							</iframe>
+							<!-- end GMAP -->
+					<!-- end CONTACT INFO -->
+				</div>
+				<div class="eleven columns about">
+					<!-- begin CONTACT FORM -->
+							<div id="message-form" style="display: none;"></div>
+							<form id="contact-form" method="post" action="js/mail.php">
+								<fieldset>
+									<p class="first">
+									<label>姓 名</label>
+									<input type="text" name="Your_Name" id="name" size="30" />
+									</p>
+									<p>
+									<label>电子邮件</label>
+									<input type="text" name="Email_Address" id="email" size="30" />
+									</p>																				
+									<p>
+									<label>留 言</label>
+									<textarea name="message" id="Message" cols="30" rows="10"></textarea>
+									</p>					
+								</fieldset>					
+								<p class="submit"><button type="submit">提 交</button></p>			
+							</form>
+					<!-- end CONTACT FORM -->
+				</div>
+			</div>
+			
+			<div class="clear"></div>
+			
+		</div>
+			<div class="clear"></div>
+		</div>				
+<!-- end CONTACT -->
 
-    </div>
+<!-- begin FOOTER -->
+		<div id="footer" class="content-block-footer">
+			<div class="copyright">
+				<p><img src="images/logo-footer.png" alt="logo-footer" /></p>
+				<p>© 2014-2015 YVESYC.ME, All Rights Reserved </p>
+				<p>Design by LosBastardos </p>
+			</div>
+		</div>
+<!-- end FOOTER -->
+
+	</div>
+</div>
+<!-- end MAIN WRAP -->
+
 </body>
 </html>
