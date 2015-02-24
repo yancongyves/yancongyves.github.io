@@ -20,6 +20,10 @@
 	<!-- Favicon-->
 	<link rel="shortcut icon" href="images/favicon.ico">
 
+	<!-- Google Webfont -->
+	<!--<link href='http://fonts.googleapis.com/css?family=Dancing+Script:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Vollkorn:400,400italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>-->
 
 	<!-- begin JavaScripts -->
 	<script type="text/javascript" src="js/jquery.min.js"></script>
@@ -109,11 +113,11 @@
 					<div id="social-icons-top">
 						<div class="social-header">
 							<ul>					
-								<li class="twitter-header"><a href="http://www.weibo.com/yancongyves" target="_blank" ></a></li>
+								<li class="weibo-header"><a href="http://www.weibo.com/yancongyves" target="_blank" ></a></li>
 								<li class="facebook-header"><a href="https://www.facebook.com/cong.yves" target="_blank" ></a></li>
-								<li class="dribbble-header"><a href="http://www.douban.com/people/Shades-gray/" target="_blank" ></a></li>
 								<li class="linkedin-header"><a href="http://cn.linkedin.com/in/yvesyc/" target="_blank" ></a></li>
-								<li class="vimeo-header"><a href="mailto:yvesyc@hotmail.com" target="_blank" ></a></li>
+								<li class="CV-header"><a href="images/works/CV.PDF" target="_blank" ></a></li>
+								<li class="mail-header"><a href="mailto:yvesyc@hotmail.com" target="_blank" ></a></li>
 							</ul>			
 						</div>
 					</div>
@@ -173,23 +177,28 @@
 									<br/>
 									<br/>
 									<br/>
-						<p>
-							图形多媒体创意设计师, 视觉传媒专业，毕业于法国比利牛斯艺术学院 (ÉCOLE SUPÉRIEURE ART DES PYRÉNÉES — Pau Tarbes) 图形创意多媒体专业。
+						<p class="content-sub">
+							平面多媒体创意设计师, 毕业于法国比利牛斯高等艺术学院(ÉCOLE SUPÉRIEURE ART DES PYRÉNÉES — Pau Tarbes)平面设计与多媒体专业。
 						</p>
 						<br/>
-						<p>
-							2009年获得ACAA商业插画师证；
+						<p class="content-sub">
+							2009年获得ACAA商业插画师证
 						</p>
-						<p>
-							2010年在校期间主题徽章设计 "Dans la forêt" 被采用；
+						<p class="content-sub">
+							2010年在校期间主题徽章设计 "Dans la forêt" 被采用
 						</p>
-						<p>
-                            2011年在校期间参与法国著名平面设计大师 Ronald Curchod 的workshop, 在此期间创作了“ Carnet de voyage：Un jour à Pau”；
+						<p class="content-sub">
+                            2011年在校期间参与法国著名平面设计大师 Ronald Curchod 的workshop, 在此期间创作了“ Carnet de voyage：Un jour à Pau”
 						</p>
-						<p>
-							2013年参与法国波城城市项目“Écrire la ville”，其作品是此次项目中重要的组成部分，多次在城市中展出，并且接受法国西南报专访。
+						<p class="content-sub">
+							2012年创作了关于法国人文风景的黑白摄影作品“Lumière”
+						</p>
+						<p class="content-sub">
+							2013年参与法国波城城市项目"Écrire la ville"，其作品是此次项目中重要的组成部分，多次在城市中展出，并且接受法国西南报专访
+						</p>
+						<p class="content-sub">
+							2013年毕业设计展"Mes rêves de Pau"，研究平面设计与摄影之间关系，作品展现形式包括海报、书籍、摄影、短片以及网站等，其中一幅摄影作品被校长永久收藏
 						</p>						
-						<br/>
 					</div>
 					
 					<div class="clear space100px"></div> 
@@ -212,40 +221,9 @@
 
 <!-- begin PORTFOLIO -->
 		<div class="content-block">
-		<div class="portfolio container"></div>
 		<div class="content container">
-			<div class="line"></div>
-			<div class="page-content">
-				<div class="five columns content-title">
-					<h3 class="content-title-small">越多越少</h3>
-					<p class="content-sub">
-						照片就是关于秘密的秘密；照片告诉你的越多，你知道的就越少。
-					</p>
-				</div>				
-				<div class="eleven columns about">
-					<section class="slider">
-						<div class="flexslider">
-							<ul class="slides">
-								<li>
-									<img src="images/slide-work/slide1.jpg" alt="slide1" />
-								</li>
-								<li>
-									<img src="images/slide-work/slide2.jpg" alt="slide2" />
-								</li>
-								<li>
-									<img src="images/slide-work/slide3.jpg" alt="slide3" />
-								</li>
-							</ul>
-						</div>
-					</section>
-					<p class="content-sub">
-						                    太多的人活在对过去的遗憾和对未来的忧虑中，
-						                    我只希望自己不要为了自己的目标，把沿路的风景都错过了,
-                                            就像我一直认为的，一生很短，作为这个词却太大，活好每一天，
-                                            其实也是一种作为。
-					</p>
-				</div>
-					
+		        <div class="line"></div> 
+		        <div class="page-content"></div> 
 				<div class="clear space100px"></div> 
 	
 			<!-- Portfolio -->
@@ -263,64 +241,28 @@
 				</div>
 				<div class="eleven columns about">
 					<ul class="items col4">
-						<li class="item painting">
-							<div class="overlay"><a href="images/works/1.jpg" class="fancybox-media" data-rel="prettyPhoto[pp_gal]" title=""><img src="images/works/thumbs/1.jpg" alt="波城的一天：城堡" /></a></div>
+						<li class="item graphic artwork">
+							<div class="overlay"><a href="portfolio/ecrire_la_ville.html" target="_blank" title=""><img src="images/works/thumbs/1.jpg" alt="Écrire la ville" /></a></div>
 							<div class="info">
-								<h4 class="item-port-name">波城的一天：城堡</h4>
+								<h4 class="item-port-name">Écrire la ville</h4>
 							</div>
 						</li>
-						<li class="item painting">
-							<div class="overlay"><a href="images/works/2.jpg" class="fancybox-media" data-rel="prettyPhoto[pp_gal]" title=""><img src="images/works/thumbs/2.jpg" alt="波城的一天：街道" /></a></div>
+						<li class="item painting artwork">
+							<div class="overlay"><a href="portfolio/un_jour_de_pau.html" target="_blank" title=""><img src="images/works/thumbs/2.jpg" alt="Un jour de Pau" /></a></div>
 							<div class="info">
-								<h4 class="item-port-name">波城的一天：街道</h4>
-							</div>
-						</li>
-						<li class="item graphic">
-							<div class="overlay"><a href="images/works/3.jpg" class="fancybox-media" data-rel="prettyPhoto[pp_gal]" title=""><img src="images/works/thumbs/3.jpg" alt="开放日" /></a></div>
-							<div class="info">
-								<h4 class="item-port-name">开放日</h4>
-							</div>
-						</li>
-						<li class="item graphic">
-							<div class="overlay"><a href="images/works/4.jpg" class="fancybox-media" data-rel="prettyPhoto[pp_gal]" title=""><img src="images/works/thumbs/4.jpg" alt="书写城市之亨利四世" /></a></div>
-							<div class="info">
-								<h4 class="item-port-name">书写城市之亨利四世</h4>
-							</div>
-						</li>
-						<li class="item graphic">
-							<div class="overlay"><a href="images/works/5.jpg" class="fancybox-media" data-rel="prettyPhoto[pp_gal]" title=""><img src="images/works/thumbs/5.jpg" alt="书写城市之贝尔多纳特" /></a></div>
-							<div class="info">
-								<h4 class="item-port-name">书写城市之贝尔多纳特</h4>
+								<h4 class="item-port-name">Un jour de Pau</h4>
 							</div>
 						</li>
 						<li class="item photo">
-							<div class="overlay"><a href="images/works/6.jpg" data-rel="prettyPhoto[pp_gal]" title=""><img src="images/works/thumbs/6.jpg" alt="25号" /></a></div>
+							<div class="overlay"><a href="portfolio/lumiere.html" target="_blank" title=""><img src="images/works/thumbs/3.jpg" alt="Lumière" /></a></div>
 							<div class="info">
-								<h4 class="item-port-name">25号</h4>
+								<h4 class="item-port-name">Lumière</h4>
 							</div>
 						</li>
-						<li class="item photo">
-							<div class="overlay"><a href="images/works/7.jpg" data-rel="prettyPhoto[pp_gal]" title=""><img src="images/works/thumbs/7.jpg" alt="卡布勒通的灯塔" /></a></div>
+						<li class="item artwork photo">
+							<div class="overlay"><a href="portfolio/mes_reves_de_pau.html" target="_blank" title=""><img src="images/works/thumbs/4.jpg" alt="Mes rêves de Pau" /></a></div>
 							<div class="info">
-								<h4 class="item-port-name">卡布勒通的灯塔</h4>
-							</div>
-						</li>
-						<li class="item photo">
-							<div class="overlay"><a href="images/works/8.jpg" data-rel="prettyPhoto[pp_gal]" title=""><img src="images/works/thumbs/8.jpg" alt="随波漂流" /></a></div>
-							<div class="info">
-								<h4 class="item-port-name">随波漂流</h4>
-							</div>
-						</li>
-						<li class="item photo artwork">
-							<div class="overlay"><a href="images/works/9.jpg" data-rel="prettyPhoto[pp_gal]" title=""><img src="images/works/thumbs/9.jpg" alt="梦回街道" /></a></div>
-							<div class="info">
-								<h4 class="item-port-name">梦回街道</h4>
-							</div>
-						</li>
-						<li class="item photo artwork">
-							<div class="overlay"><a href="images/works/10.jpg" data-rel="prettyPhoto[pp_gal]" title=""><img src="images/works/thumbs/10.jpg" alt="梦回街道" /></a></div>
-							<div class="info">
-								<h4 class="item-port-name">梦回街道</h4>
+								<h4 class="item-port-name">Mes rêves de Pau</h4>
 							</div>
 						</li>
 					</ul>
@@ -358,7 +300,7 @@
 							<div class="contact-info">
 								<ul>
 									<li class="contact-info-subtitle">-<span>电 话</span></li>
-									<li class="contact-info-content">(+86)17092568886</li>
+									<li class="contact-info-content">+86 15952191116</li>
 									<li class="contact-info-subtitle">-<span>电子邮件</span></li>
 									<li class="contact-info-content">yvesyc@hotmail.com</li>
 									<li class="contact-info-subtitle">-<span>地 址</span></li>
@@ -367,8 +309,8 @@
 							</div>
 							<br/>
 							<!-- begin GMAP -->
-							<iframe class="gmap" height="168" src="">
-							</iframe>
+							<!--<iframe class="gmap" height="168" src="https://maps.google.com.br/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=Washington,+Estados+Unidos&amp;aq=1&amp;oq=Washin&amp;sll=-27.609691,-48.478875&amp;sspn=0.986912,2.113495&amp;ie=UTF8&amp;hq=&amp;hnear=Distrito+de+Col%C3%BAmbia,+District+of+Columbia,+Distrito+de+Col%C3%BAmbia,+Estados+Unidos&amp;t=m&amp;ll=38.895108,-77.03639&amp;spn=0.014362,0.036478&amp;z=14&amp;iwloc=A&amp;output=embed">
+							</iframe>-->
 							<!-- end GMAP -->
 					<!-- end CONTACT INFO -->
 				</div>
